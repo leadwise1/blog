@@ -2,7 +2,7 @@ const posts = [
   {
     slug: "leaky-pipeline-stem",
     title: "The Leaky Pipeline in STEM: Why Talent is Lost and How We Rebuild It",
-    date: "Aug 20, 2024",
+    date: "Dec 26th, 2025",
     readTime: 3,
     excerpt: "The Leaky Pipeline is a systemic failure where qualified, talented individuals drop out of STEM professions due to lack of support.",
     content: "<h3>The Problem: Where Does the Talent Go?</h3><p>We often hear that the future is STEM (Science, Technology, Engineering, and Mathematics). Yet, despite more women and people of color entering these fields than ever before, they are not reaching the top. This is the \"Leaky Pipeline\"—a systemic failure where qualified, talented individuals drop out of the profession at specific critical junctures, not because of a lack of skill, but because of a lack of support.</p><h3>The Glass Ceiling is Actually a Broken Rung</h3><p>For many marginalized voices, the issue isn't getting in the door; it's staying there. From a lack of mentorship to exclusionary corporate cultures, the barriers are invisible but solid. When we lose these voices, we don't just lose employees; we lose innovation, perspective, and the potential for technological breakthroughs that serve everyone, not just a select few.</p><h3>How LeadWise Stops the Leak</h3><p>At LeadWise Foundation, we believe that support is the sealant for this pipeline. We don't just teach technical skills; we teach survival and thriving strategies.</p><ul><li><strong>Mentorship:</strong> Connecting emerging talent with leaders who have \"been there.\"</li><li><strong>Advocacy:</strong> Pushing for policy changes that make workplaces more equitable.</li><li><strong>Community:</strong> Reminding every participant that they are not alone.</li></ul><h3>The Future is Equitable</h3><p>Repairing the pipeline requires more than just good intentions; it requires action. By investing in leadership training and structural advocacy, we ensure that the leaders of tomorrow actually make it to tomorrow.</p><p><strong><a href=\"/donate\">Support STEM Equity – Donate Today</a></strong></p>",
@@ -11,7 +11,7 @@ const posts = [
   {
     slug: "challenging-norms-championing-diversity",
     title: "Leadwise: Challenging Norms, Championing Diversity",
-    date: "Aug 16, 2024",
+    date: "Dec 18, 2025",
     readTime: 3,
     excerpt: "In a world that thrives on diverse perspectives, Leadwise is dedicated to breaking down gender barriers and promoting equality across various professions.",
     content: "<p><strong>By F.S. Lakhani</strong></p><p>In a world that thrives on diverse perspectives, Leadwise is dedicated to breaking down gender barriers and promoting equality across various professions. We're a non-profit organization committed to addressing the underrepresentation of men in fields like nursing and teaching, and women in technology.</p><p>We believe that career choices should be guided by passion and skill, not by outdated stereotypes or societal expectations. Everyone, regardless of gender, deserves the opportunity to pursue their dreams and reach their full potential.</p><p>As part of our commitment to fostering diversity in the tech sector, we are excited to announce our partnership with Google Developer Groups (GDG)! Together, we are organizing events specifically designed to encourage and support women in technology.</p><p>The tech industry is a driving force for innovation and progress. However, the underrepresentation of women limits the diversity of perspectives and creativity that fuel this field. By collaborating with GDG, we are actively creating opportunities for women to gain the skills, confidence, and connections they need to thrive in tech.</p><h3>What to Expect from Leadwise x GDG Events:</h3><ul><li><strong>Inspiring Speakers:</strong> Hear from successful women in tech who will share their personal and professional journeys.</li><li><strong>Hands-on Workshops:</strong> Gain practical experience with cutting-edge Google technologies through interactive workshops and codelabs.</li><li><strong>Networking Opportunities:</strong> Connect with like-minded individuals, mentors, and potential employers in the tech industry.</li><li><strong>Supportive Community:</strong> Join a welcoming community that celebrates diversity and encourages women to pursue their tech ambitions.</li></ul><p>While our partnership with GDG is an important step, our mission extends beyond the tech sector. We are equally committed to supporting men who aspire to careers in nursing and teaching. We organize workshops, mentorship programs, and awareness campaigns to challenge stereotypes and create a more inclusive environment in these professions.</p><p>Whether you're passionate about technology, education, healthcare, or simply believe in a more equitable future, we invite you to join the Leadwise community. Together, let's challenge norms, champion diversity, and empower individuals to pursue their passions without limitations.</p><p>Stay tuned for announcements about our upcoming events!</p><p><a href=\"https://gdg.community.dev/gdg-frisco/\">https://gdg.community.dev/gdg-frisco/</a></p><p>#Leadwise #GDG #Diversity #Inclusion #BreakingBarriers</p>",
@@ -20,7 +20,7 @@ const posts = [
   {
     slug: "breaking-barriers-opportunity",
     title: "Breaking Barriers: How Opportunity Unlocks Talent",
-    date: "Dec 30, 2025",
+    date: "Dec 01, 2025",
     readTime: 5,
     excerpt: "Exploring how removing barriers and providing opportunity empowers talented individuals to thrive in their careers.",
     content: "<p>Every talented individual deserves a chance to shine. By providing equitable access to resources, mentorship, and opportunities, we can unlock potential that benefits both the individual and the wider community. In this blog, we explore practical strategies for breaking systemic barriers and fostering inclusive growth.</p>",
@@ -29,7 +29,7 @@ const posts = [
   {
     slug: "talent",
     title: "What If Talent Wasn’t the Problem—But Opportunity Was?",
-    date: "Apr 27, 2025",
+    date: "Dec 20, 2025",
     readTime: 2,
     excerpt:
       "Every year, industries experience millions of dollars in missed opportunities—not because talent is lacking but due to systemic barriers.",
@@ -39,7 +39,7 @@ const posts = [
   {
     slug: "women-in-tech-equity",
     title: "Women in Tech: In‑Depth Analysis of Equity",
-    date: "Mar 24, 2025",
+    date: "Nov 30th, 2025",
     readTime: 4,
     excerpt:
       "The tech industry is booming, yet women continue to face challenges that impact their advancement.",
@@ -49,7 +49,7 @@ const posts = [
   {
     slug: "gender-equity-workplace",
     title: "Why Gender Equity Is Essential for a Thriving Workplace Culture",
-    date: "Mar 23, 2025",
+    date: "Dec 13, 2025",
     readTime: 4,
     excerpt:
       "Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces.",
