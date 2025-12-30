@@ -43,6 +43,7 @@ const posts = [
     readTime: 4,
     excerpt:
       "The tech industry is booming, yet women continue to face challenges that impact their advancement.",
+    content: "<p>The tech industry is booming, yet women continue to face challenges that impact their advancement. Full article coming soon.</p>",
     image: "/images/women-in-tech.jpg",
   },
   {
@@ -52,6 +53,7 @@ const posts = [
     readTime: 4,
     excerpt:
       "Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces.",
+    content: "<p>Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces. Full article coming soon.</p>",
     image: "/images/gender-equity.jpg",
   },
 ];
