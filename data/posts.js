@@ -1,4 +1,4 @@
-export const posts = [
+const posts = [
   {
     slug: "minimum-wage-living-wage",
     title: "From Minimum Wage to Living Wage: The Economics of Opportunity",
@@ -6,7 +6,7 @@ export const posts = [
     readTime: 6,
     excerpt: "The journey from minimum wage to living wage is a crucial economic discussion. We explore how this shift impacts families, reduces poverty, and drives economic growth.",
     content: `<h3>The Problem: Survival vs. Stability</h3><p>The journey from minimum wage to living wage is a crucial economic discussion. It impacts millions of families striving for a better life. Minimum wage often fails to cover basic needs, leaving many workers struggling to make ends meet. A living wage, however, aims to provide financial stability, supporting families in accessing healthcare, education, and housing.</p><h3>Understanding the Difference</h3><p>Minimum wage and living wage are often used interchangeably, but they represent different economic concepts:</p><ul><li><strong>Minimum Wage:</strong> A legal standard set by government legislation. It frequently fails to meet the actual cost of living as it doesn't account for inflation or regional cost differences.</li><li><strong>Living Wage:</strong> The income necessary to cover basic needs including housing, food, healthcare, and education. It targets holistic well-being rather than just legal compliance.</li></ul><h3>LMI Data: The Reality Check</h3><p>Low-to-Moderate Income (LMI) data reveals stark disparities. A family earning $25,000 annually faces constant financial stress, limited access to quality healthcare, and restricted opportunities for upward mobility. These financial constraints create a cycle that is hard to break without intervention.</p><h3>The Impact: From $25K to $60K</h3><p>Increasing a family's income from $25,000 to $60,000 is transformative. It doesn't just pay bills; it buys bandwidth. Healthcare access improves, decreasing reliance on emergency services. Educational opportunities expand, allowing for better schooling and extracurriculars. Most importantly, it allows families to allocate funds for savings, creating a cushion that reduces long-term stress.</p><h3>Economic Ripple Effects</h3><p>Raising wages isn't just charity; it's stimulus. Higher wages put more money in workers' pockets, which boosts spending at local businesses. While critics caution about potential price increases, evidence suggests that productivity gains and reduced turnover often offset these costs. Employees feel valued and perform better when fairly compensated.</p><h3>Conclusion</h3><p>Transitioning from a minimum wage to a living wage opens doors to economic opportunity. It is a necessary step towards reducing income inequality and ensuring that communities can thrive, not just survive.</p>`,
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop", // Placeholder image for Economics/Finance
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=800&auto=format&fit=crop", 
     author: "LeadWise Team"
   },
   {
@@ -48,9 +48,27 @@ export const posts = [
     content: `<p>Every year, industries spanning from technology to healthcare experience significant financial losses, amounting to millions of dollars in missed opportunities—not because the talent pool is lacking or insufficient, but rather due to the barriers that prevent capable individuals from accessing these opportunities. This systemic issue of inequity in access to resources and opportunities continues to plague various sectors, stifling innovation and growth.</p><p>Imagine a brilliant woman who, despite her demanding job, dedicates her evenings to teaching herself how to code. She immerses herself in online tutorials, spends hours practicing, and builds impressive projects. However, despite her hard work and determination, she never receives the chance to showcase her skills in an interview or on a professional platform where her talents can shine. Her potential remains untapped, and the industry loses out on a future innovator who could contribute significantly to technological advancements.</p><p>Now, consider a compassionate man who has always dreamt of becoming a nurse. He possesses the empathy and dedication that are essential in the healthcare field. Yet, he encounters silent barriers at every turn—whether they be financial constraints, lack of mentorship, or systemic biases that discourage him from pursuing his passion. This man's aspirations are thwarted, and as a result, the healthcare system misses out on a caring professional who could make a difference in countless lives.</p><p>At LeadWise, we recognize this profound injustice with clarity and conviction—and we refuse to remain passive in the face of such inequity. We firmly believe that everyone deserves a fair chance to succeed, and we are committed to dismantling the barriers that hinder talented individuals from entering the workforce.Our cohorts are not merely educational programs; they are transformative launchpads designed to equip aspiring leaders with the skills and confidence they need to thrive in their chosen fields. We focus on creating an inclusive environment where individuals can learn, grow, and ultimately excel in their careers.</p><p><strong>Ready to make a change? <a href="/contact">Contact us today</a> to learn how you can help break down barriers and foster true opportunity.</p><p>96% of our graduates successfully secure interviews within just 90 days of completing our program, demonstrating the effectiveness of our approach in bridging the gap between education and employment.</p><p>82% of our participants successfully pivot into their new careers within a year, showcasing the tangible impact of our training and support.</p><p>This initiative is not an act of charity; rather, it represents a smart, measurable, and high-return social investment. By investing in individuals who have the potential to contribute meaningfully to the workforce, we are not only empowering them but also fostering economic growth and innovation within our communities.</p><p>Opportunity is abundant and waiting to be seized. But it requires a catalyst to ignite change.</p><p>THAT CATALYST IS YOU</strong></p>`,
     image: "/images/talent.jpg",
     author: "LeadWise Team"
+  },
+  {
+    slug: "women-in-tech-equity",
+    title: "Women in Tech: In‑Depth Analysis of Equity",
+    date: "Nov 30th, 2025",
+    readTime: 4,
+    excerpt: "The tech industry is booming, yet women continue to face challenges that impact their advancement.",
+    content: `<p>The tech industry is booming, yet women continue to face challenges that impact their advancement. Full article coming soon.</p>`,
+    image: "/images/women-in-tech.jpg",
+    author: "LeadWise Team"
+  },
+  {
+    slug: "gender-equity-workplace",
+    title: "Why Gender Equity Is Essential for a Thriving Workplace Culture",
+    date: "Dec 13, 2025",
+    readTime: 4,
+    excerpt: "Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces.",
+    content: `<p>Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces. Full article coming soon.</p>`,
+    image: "/images/gender-equity.jpg",
+    author: "LeadWise Team"
   }
 ];
-
-export default posts;
 
 export default posts;
