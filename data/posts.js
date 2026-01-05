@@ -6,7 +6,7 @@ const posts = [
     readTime: 5,
     excerpt: "Exploring how removing barriers and providing opportunity empowers talented individuals to thrive in their careers.",
     content: "<p>Every talented individual deserves a chance to shine. By providing equitable access to resources, mentorship, and opportunities, we can unlock potential that benefits both the individual and the wider community. In this blog, we explore practical strategies for breaking systemic barriers and fostering inclusive growth.</p>",
-    image: "/images/breaking-barriers.jpg",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800&auto=format&fit=crop",
   },
   {
     slug: "opportunity-vs-talent",
@@ -16,7 +16,7 @@ const posts = [
     excerpt:
       "Every year, industries experience millions of dollars in missed opportunities—not because talent is lacking but due to systemic barriers.",
     content: "<p>Every year, industries spanning from technology to healthcare experience significant financial losses, amounting to millions of dollars in missed opportunities—not because the talent pool is lacking or insufficient, but rather due to the barriers that prevent capable individuals from accessing these opportunities. This systemic issue of inequity in access to resources and opportunities continues to plague various sectors, stifling innovation and growth.</p><p>Imagine a brilliant woman who, despite her demanding job, dedicates her evenings to teaching herself how to code. She immerses herself in online tutorials, spends hours practicing, and builds impressive projects. However, despite her hard work and determination, she never receives the chance to showcase her skills in an interview or on a professional platform where her talents can shine. Her potential remains untapped, and the industry loses out on a future innovator who could contribute significantly to technological advancements.</p><p>Now, consider a compassionate man who has always dreamt of becoming a nurse. He possesses the empathy and dedication that are essential in the healthcare field. Yet, he encounters silent barriers at every turn—whether they be financial constraints, lack of mentorship, or systemic biases that discourage him from pursuing his passion. This man's aspirations are thwarted, and as a result, the healthcare system misses out on a caring professional who could make a difference in countless lives.</p><p>Now, consider a compassionate man who has always dreamt of becoming a nurse. He possesses the empathy and dedication that are essential in the healthcare field. Yet, he encounters silent barriers at every turn—whether they be financial constraints, lack of mentorship, or systemic biases that discourage him from pursuing his passion. This man's aspirations are thwarted, and as a result, the healthcare system misses out on a caring professional who could make a difference in countless lives.</p><p>At LeadWise, we recognize this profound injustice with clarity and conviction—and we refuse to remain passive in the face of such inequity. We firmly believe that everyone deserves a fair chance to succeed, and we are committed to dismantling the barriers that hinder talented individuals from entering the workforce.Our cohorts are not merely educational programs; they are transformative launchpads designed to equip aspiring leaders with the skills and confidence they need to thrive in their chosen fields. We focus on creating an inclusive environment where individuals can learn, grow, and ultimately excel in their careers.</p><p><strong>Ready to make a change? <a href=\"/contact\">Contact us today</a> to learn how you can help break down barriers and foster true opportunity.</p><p>96% of our graduates successfully secure interviews within just 90 days of completing our program, demonstrating the effectiveness of our approach in bridging the gap between education and employment.</p><p>82% of our participants successfully pivot into their new careers within a year, showcasing the tangible impact of our training and support.</p><p>This initiative is not an act of charity; rather, it represents a smart, measurable, and high-return social investment. By investing in individuals who have the potential to contribute meaningfully to the workforce, we are not only empowering them but also fostering economic growth and innovation within our communities.</p><p>Opportunity is abundant and waiting to be seized. But it requires a catalyst to ignite change.</p><p>THAT CATALYST IS YOU</strong></p>",
-    image: "/images/talent.jpg",
+    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop",
   },
   {
     slug: "women-in-tech-equity",
@@ -26,7 +26,7 @@ const posts = [
     excerpt:
       "The tech industry is booming, yet women continue to face challenges that impact their advancement.",
     content: "<p>Despite the rapid growth of the technology sector, women remain significantly underrepresented in technical roles and leadership positions. This disparity is not just a pipeline issue but a result of systemic cultural barriers within organizations.</p><p>Research consistently shows that diverse teams build better products. When women are excluded from the development process, the resulting technologies often fail to serve the needs of the entire population. Achieving equity requires more than just hiring quotas; it demands a fundamental shift in workplace culture, inclusive policies, and active mentorship programs that support women throughout their careers.</p><p>To bridge the gap, companies must audit their hiring practices, ensure equal pay for equal work, and create safe environments where women can thrive without fear of bias or discrimination.</p>",
-    image: "/images/women-in-tech.jpg",
+    image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800&auto=format&fit=crop",
   },
   {
     slug: "gender-equity-workplace",
@@ -36,7 +36,7 @@ const posts = [
     excerpt:
       "Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces.",
     content: "<p>Gender equity is often viewed through the lens of fairness, but it is also a critical business imperative. Workplaces that prioritize equity see higher levels of employee engagement, lower turnover rates, and increased innovation.</p><p>When employees feel that they are treated fairly, regardless of their gender, they are more likely to contribute their best ideas and collaborate effectively. A culture of equity fosters psychological safety, allowing individuals to take risks and innovate without the fear of being judged based on stereotypes.</p><p>Creating a thriving workplace culture starts with leadership commitment. Leaders must model inclusive behaviors, challenge biases, and implement policies that support work-life balance for all employees. By valuing every voice, organizations can unlock the full potential of their workforce.</p>",
-    image: "/images/gender-equity.jpg",
+    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800&auto=format&fit=crop",
   },
  {
     slug: "minimum-wage-living-wage",
@@ -191,7 +191,7 @@ const posts = [
         <li><strong>Impact:</strong> Texas Instruments & Dell Employees—mentorship time counts toward the Volunteer Incentive Program (VIP) to directly fund student scholarships.</li>
       </ul>
     `,
-    image: "/images/stem-pipeline.jpg",
+    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop",
   },
 ];
 

@@ -42,7 +42,7 @@ export default async function BlogPost({ params }) {
     <article className="bg-white min-h-screen pb-20">
       
       {/* Header Image & Title */}
-      <header className="relative w-full h-[60vh] bg-primary flex items-end">
+      <header className="relative w-full h-[60vh] bg-slate-900 flex items-end overflow-hidden">
         <img 
           src={post.image} 
           alt={post.title}
@@ -68,7 +68,7 @@ export default async function BlogPost({ params }) {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
         <div className="bg-white p-8 md:p-12 rounded-xl shadow-lg border border-gray-100">
             <div 
-              className="prose prose-lg prose-slate max-w-none text-gray-700 leading-relaxed"
+              className="prose prose-lg prose-slate max-w-none text-gray-700 leading-relaxed prose-headings:text-slate-900 prose-a:text-blue-600"
               dangerouslySetInnerHTML={{ __html: post.content }} 
             />
             
