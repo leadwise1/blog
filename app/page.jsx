@@ -1,6 +1,7 @@
-import posts from "../data/posts";
+"use client";
+
+import posts from "@/data/posts";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
