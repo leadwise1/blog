@@ -43,12 +43,12 @@ export default function Home() {
 
               {/* Content Area */}
               <div className="p-8 flex flex-col flex-1">
-                <div className="flex items-center text-xs font-semibold text-accent-dark mb-3 uppercase tracking-wide">
+                <div className="flex items-center text-xs font-semibold text-gray-500 mb-3 uppercase tracking-wide">
                   <span>{post.date}</span>
                   <span className="mx-2 text-gray-300">•</span>
                   <span>{post.readTime} min read</span>
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-3 leading-snug group-hover:text-blue-700 transition-colors">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">
                   <Link href={`/blog/${post.slug}`}>
                     {post.title}
                   </Link>
@@ -56,7 +56,7 @@ export default function Home() {
                 <p className="text-gray-600 text-sm mb-6 flex-1 line-clamp-3 leading-relaxed">
                   {post.excerpt}
                 </p>
-                <Link href={`/blog/${post.slug}`} className="text-primary font-bold hover:text-accent-dark inline-flex items-center gap-2 mt-auto group/link">
+                <Link href={`/blog/${post.slug}`} className="text-blue-600 font-bold hover:text-blue-800 inline-flex items-center gap-2 mt-auto group/link">
                   Read Full Story <span className="group-hover/link:translate-x-1 transition-transform duration-200">→</span>
                 </Link>
               </div>
