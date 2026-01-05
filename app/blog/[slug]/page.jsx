@@ -1,4 +1,4 @@
-import posts from "../../../data/blogPosts"; 
+import posts from "../../../data/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -7,6 +7,25 @@ export async function generateStaticParams() {
   return posts.map((post) => ({
     slug: post.slug,
   }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
+
+  if (!post) {
+    return {
+      title: "Post Not Found",
+    };
+  }
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: {
+      images: [post.image],
+    },
+  };
 }
 
 export default async function BlogPost({ params }) {
