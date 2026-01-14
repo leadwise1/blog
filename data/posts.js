@@ -6,7 +6,66 @@ const posts = [
     readTime: 5,
     excerpt: "Exploring how removing barriers and providing opportunity empowers talented individuals to thrive in their careers.",
     content: "<p>Every talented individual deserves a chance to shine. By providing equitable access to resources, mentorship, and opportunities, we can unlock potential that benefits both the individual and the wider community. In this blog, we explore practical strategies for breaking systemic barriers and fostering inclusive growth.</p>",
+    keywords: [
+      "breaking barriers",
+      "equal opportunity",
+      "talent development",
+      "inclusive growth"
+    ],
+    ogTitle: "Breaking Barriers: How Opportunity Unlocks Talent",
+    ogDescription: "Exploring how removing barriers and providing opportunity empowers talented individuals to thrive in their careers.",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800&auto=format&fit=crop",
+  },
+  {
+    slug: "ai-powered-resume-2026",
+    title: "How to Build an AI-Powered Resume That Gets You Noticed in 2026",
+    date: "Jan 10, 2026",
+    readTime: 6,
+    excerpt: "Discover how to create an AI-powered resume optimized for ATS systems and 2026 job search trends. Learn the latest strategies for AI resume writing, keyword integration, and ATS optimization to boost your job application success.",
+    keywords: [
+      "AI-powered resume",
+      "ATS optimization",
+      "2026 job search",
+      "AI resume",
+      "resume keywords",
+      "applicant tracking system",
+      "future-proof resume",
+      "AI-friendly resume",
+      "resume writing tips"
+    ],
+    ogTitle: "How to Build an AI-Powered Resume Optimized for ATS in 2026",
+    ogDescription: "Step-by-step guide to crafting an AI-powered resume for 2026. Learn how to optimize for ATS systems, use the right keywords, and stand out in the modern job search.",
+    content: `
+    <img src="/images/ai-resume-2026.png" alt="AI-powered resume optimized for ATS in 2026" style="width:100%;border-radius:12px;margin-bottom:24px;" />
+    <p>Education gives you a voice. Skills give you power. In 2026, recruiters and AI systems are scanning resumes faster than ever, making it essential to craft an AI resume that stands out and is fully optimized for Applicant Tracking Systems (ATS).</p>
+    
+    <h2>1. Understand AI Resume & ATS Optimization</h2>
+    <p>Most companies use AI-powered Applicant Tracking Systems (ATS) to filter applications. To succeed in the 2026 job search, use clear headings, standard fonts, and relevant keywords from the job description to ensure your AI resume passes automated screening.</p>
+    
+    <h2>2. Structure Your Resume for AI and ATS</h2>
+    <p>Organize your resume into clearly labeled sections: Contact Info, Professional Summary, Skills, Work Experience, Education, and Certifications. Use bullet points and action verbs to make accomplishments scannable for both AI and human recruiters.</p>
+    
+    <h2>3. Highlight Technical & Transferable Skills with Keywords</h2>
+    <p>Include both technical skills (software, programming, cloud tools) and transferable skills (communication, problem-solving, leadership). AI resume systems look for specific keywords, while human recruiters value well-rounded candidates. Integrate these keywords naturally for maximum ATS optimization.</p>
+    
+    <h2>4. Use Metrics & Achievements in Your AI Resume</h2>
+    <p>Numbers stand out to both AI and humans. Instead of saying “Managed a team,” say “Managed a team of 5 and increased project delivery efficiency by 30%.” Quantifiable achievements improve your resume's ranking in AI-powered ATS systems.</p>
+    
+    <h2>5. Optimize for Readability and ATS Compliance</h2>
+    <p>Keep your resume concise (1–2 pages), avoid graphics that ATS can’t read, and save as PDF for professional submission. Use consistent formatting and spacing for visual clarity, ensuring your AI resume is easily parsed by ATS in the 2026 job search.</p>
+    
+    <h2>6. Include AI-Friendly Keywords for 2026 Job Search</h2>
+    <p>Scan the job posting and include exact phrasing for relevant skills, certifications, and technologies. AI-powered ATS systems often rank resumes higher when matching keywords appear naturally and contextually throughout your resume.</p>
+    
+    <h2>7. Keep Your AI Resume Future-Proof</h2>
+    <p>Regularly update your resume with new certifications, skills, and experiences. Incorporate emerging tools and platforms in your industry to demonstrate continuous growth and adaptability in the evolving 2026 job market.</p>
+    
+    <h2>8. Supplement Your AI Resume with a Strong Online Presence</h2>
+    <p>Link to your LinkedIn, GitHub, or portfolio. Many AI systems and recruiters cross-reference online profiles, so consistency and professionalism matter for a fully optimized 2026 job search.</p>
+    
+    <p>By following these steps, your AI-powered resume will be optimized for 2026 hiring practices, helping you get noticed by both automated systems and human recruiters. Remember: clarity, structure, and relevant content with the right keywords are your best allies in standing out in the modern job search.</p>
+    `,
+    image: "/images/ai-resume-2026.png",
   },
   {
     slug: "opportunity-vs-talent",
@@ -15,7 +74,15 @@ const posts = [
     readTime: 2,
     excerpt:
       "Every year, industries experience millions of dollars in missed opportunities—not because talent is lacking but due to systemic barriers.",
-    content: "<p>Every year, industries spanning from technology to healthcare experience significant financial losses, amounting to millions of dollars in missed opportunities—not because the talent pool is lacking or insufficient, but rather due to the barriers that prevent capable individuals from accessing these opportunities. This systemic issue of inequity in access to resources and opportunities continues to plague various sectors, stifling innovation and growth.</p><p>Imagine a brilliant woman who, despite her demanding job, dedicates her evenings to teaching herself how to code. She immerses herself in online tutorials, spends hours practicing, and builds impressive projects. However, despite her hard work and determination, she never receives the chance to showcase her skills in an interview or on a professional platform where her talents can shine. Her potential remains untapped, and the industry loses out on a future innovator who could contribute significantly to technological advancements.</p><p>Now, consider a compassionate man who has always dreamt of becoming a nurse. He possesses the empathy and dedication that are essential in the healthcare field. Yet, he encounters silent barriers at every turn—whether they be financial constraints, lack of mentorship, or systemic biases that discourage him from pursuing his passion. This man's aspirations are thwarted, and as a result, the healthcare system misses out on a caring professional who could make a difference in countless lives.</p><p>Now, consider a compassionate man who has always dreamt of becoming a nurse. He possesses the empathy and dedication that are essential in the healthcare field. Yet, he encounters silent barriers at every turn—whether they be financial constraints, lack of mentorship, or systemic biases that discourage him from pursuing his passion. This man's aspirations are thwarted, and as a result, the healthcare system misses out on a caring professional who could make a difference in countless lives.</p><p>At LeadWise, we recognize this profound injustice with clarity and conviction—and we refuse to remain passive in the face of such inequity. We firmly believe that everyone deserves a fair chance to succeed, and we are committed to dismantling the barriers that hinder talented individuals from entering the workforce.Our cohorts are not merely educational programs; they are transformative launchpads designed to equip aspiring leaders with the skills and confidence they need to thrive in their chosen fields. We focus on creating an inclusive environment where individuals can learn, grow, and ultimately excel in their careers.</p><p><strong>Ready to make a change? <a href=\"/contact\">Contact us today</a> to learn how you can help break down barriers and foster true opportunity.</p><p>96% of our graduates successfully secure interviews within just 90 days of completing our program, demonstrating the effectiveness of our approach in bridging the gap between education and employment.</p><p>82% of our participants successfully pivot into their new careers within a year, showcasing the tangible impact of our training and support.</p><p>This initiative is not an act of charity; rather, it represents a smart, measurable, and high-return social investment. By investing in individuals who have the potential to contribute meaningfully to the workforce, we are not only empowering them but also fostering economic growth and innovation within our communities.</p><p>Opportunity is abundant and waiting to be seized. But it requires a catalyst to ignite change.</p><p>THAT CATALYST IS YOU</strong></p>",
+    content: `<p>Every year, industries spanning from technology to healthcare experience significant financial losses, amounting to millions of dollars in missed opportunities—not because the talent pool is lacking or insufficient, but rather due to the barriers that prevent capable individuals from accessing these opportunities. This systemic issue of inequity in access to resources and opportunities continues to plague various sectors, stifling innovation and growth.</p><p>Imagine a brilliant woman who, despite her demanding job, dedicates her evenings to teaching herself how to code. She immerses herself in online tutorials, spends hours practicing, and builds impressive projects. However, despite her hard work and determination, she never receives the chance to showcase her skills in an interview or on a professional platform where her talents can shine. Her potential remains untapped, and the industry loses out on a future innovator who could contribute significantly to technological advancements.</p><p>Now, consider a compassionate man who has always dreamt of becoming a nurse. He possesses the empathy and dedication that are essential in the healthcare field. Yet, he encounters silent barriers at every turn—whether they be financial constraints, lack of mentorship, or systemic biases that discourage him from pursuing his passion. This man's aspirations are thwarted, and as a result, the healthcare system misses out on a caring professional who could make a difference in countless lives.</p><p>At LeadWise, we recognize this profound injustice with clarity and conviction—and we refuse to remain passive in the face of such inequity. We firmly believe that everyone deserves a fair chance to succeed, and we are committed to dismantling the barriers that hinder talented individuals from entering the workforce. Our cohorts are not merely educational programs; they are transformative launchpads designed to equip aspiring leaders with the skills and confidence they need to thrive in their chosen fields. We focus on creating an inclusive environment where individuals can learn, grow, and ultimately excel in their careers.</p><p><strong>Ready to make a change? <a href="/contact">Contact us today</a> to learn how you can help break down barriers and foster true opportunity.</strong></p><p>96% of our graduates successfully secure interviews within just 90 days of completing our program, demonstrating the effectiveness of our approach in bridging the gap between education and employment.</p><p>82% of our participants successfully pivot into their new careers within a year, showcasing the tangible impact of our training and support.</p><p>This initiative is not an act of charity; rather, it represents a smart, measurable, and high-return social investment. By investing in individuals who have the potential to contribute meaningfully to the workforce, we are not only empowering them but also fostering economic growth and innovation within our communities.</p><p>Opportunity is abundant and waiting to be seized. But it requires a catalyst to ignite change.</p><p><strong>THAT CATALYST IS YOU</strong></p>`,
+    keywords: [
+      "talent vs opportunity",
+      "systemic barriers",
+      "workforce equity",
+      "LeadWise"
+    ],
+    ogTitle: "What If Talent Wasn’t the Problem—But Opportunity Was?",
+    ogDescription: "Every year, industries experience millions of dollars in missed opportunities—not because talent is lacking but due to systemic barriers.",
     image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop",
   },
   {
@@ -26,6 +93,14 @@ const posts = [
     excerpt:
       "The tech industry is booming, yet women continue to face challenges that impact their advancement.",
     content: "<p>Despite the rapid growth of the technology sector, women remain significantly underrepresented in technical roles and leadership positions. This disparity is not just a pipeline issue but a result of systemic cultural barriers within organizations.</p><p>Research consistently shows that diverse teams build better products. When women are excluded from the development process, the resulting technologies often fail to serve the needs of the entire population. Achieving equity requires more than just hiring quotas; it demands a fundamental shift in workplace culture, inclusive policies, and active mentorship programs that support women throughout their careers.</p><p>To bridge the gap, companies must audit their hiring practices, ensure equal pay for equal work, and create safe environments where women can thrive without fear of bias or discrimination.</p>",
+    keywords: [
+      "women in tech",
+      "gender equity",
+      "tech diversity",
+      "inclusive culture"
+    ],
+    ogTitle: "Women in Tech: In‑Depth Analysis of Equity",
+    ogDescription: "The tech industry is booming, yet women continue to face challenges that impact their advancement.",
     image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800&auto=format&fit=crop",
   },
   {
@@ -36,6 +111,14 @@ const posts = [
     excerpt:
       "Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces.",
     content: "<p>Gender equity is often viewed through the lens of fairness, but it is also a critical business imperative. Workplaces that prioritize equity see higher levels of employee engagement, lower turnover rates, and increased innovation.</p><p>When employees feel that they are treated fairly, regardless of their gender, they are more likely to contribute their best ideas and collaborate effectively. A culture of equity fosters psychological safety, allowing individuals to take risks and innovate without the fear of being judged based on stereotypes.</p><p>Creating a thriving workplace culture starts with leadership commitment. Leaders must model inclusive behaviors, challenge biases, and implement policies that support work-life balance for all employees. By valuing every voice, organizations can unlock the full potential of their workforce.</p>",
+    keywords: [
+      "workplace culture",
+      "gender equity",
+      "employee engagement",
+      "productivity"
+    ],
+    ogTitle: "Why Gender Equity Is Essential for a Thriving Workplace Culture",
+    ogDescription: "Gender equity directly influences productivity, creativity, and employee satisfaction in modern workplaces.",
     image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800&auto=format&fit=crop",
   },
  {
@@ -44,6 +127,14 @@ const posts = [
     date: "Dec 31, 2025",
     readTime: 8,
     excerpt: "Explore the economic shift from minimum wage to living wage and its impact on families. Understand the transition's benefits, challenges, and policy implications.",
+    keywords: [
+      "minimum wage",
+      "living wage",
+      "economic equity",
+      "LMI families"
+    ],
+    ogTitle: "From Minimum Wage to Living Wage: The Economics of Opportunity",
+    ogDescription: "Explore the economic shift from minimum wage to living wage and its impact on families.",
     content: `
       <p>The journey from minimum wage to living wage is a crucial economic discussion. It impacts millions of families striving for a better life.</p>
       <p>Minimum wage often fails to cover basic needs. This leaves many workers struggling to make ends meet. A living wage, however, aims to provide financial stability. It supports families in accessing healthcare, education, and housing.</p>
@@ -96,6 +187,14 @@ const posts = [
     date: "Jan 15, 2026",
     readTime: 6,
     excerpt: "Fixing the STEM workforce leaky pipeline is crucial for economic growth. Discover strategies for effective STEM workforce development, including training, job readiness, and inclusivity.",
+    keywords: [
+      "STEM pipeline",
+      "workforce development",
+      "tech education",
+      "mentorship"
+    ],
+    ogTitle: "STEM Workforce Development: Closing the Leaky Pipeline",
+    ogDescription: "Fixing the STEM workforce leaky pipeline is crucial for economic growth. Discover strategies for effective STEM workforce development.",
     content: `
       <p>The STEM workforce leaky pipeline is a pressing issue. It affects both social and economic landscapes. High-potential talent is lost at various stages.</p>
       <p>This loss is not just a social concern. It poses a significant economic threat. Innovation and growth depend on a robust STEM workforce.</p>
@@ -191,7 +290,28 @@ const posts = [
         <li><strong>Impact:</strong> Texas Instruments & Dell Employees—mentorship time counts toward the Volunteer Incentive Program (VIP) to directly fund student scholarships.</li>
       </ul>
     `,
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop",
+    image: "/images/stem-pipeline.jpg",
+  },
+  {
+    slug: "ai-gatekeeper-resume-2026",
+    title: "Get Past the AI Gatekeeper: Why Your Resume Isn’t Getting Interviews in 2026",
+    date: "Jan 12, 2026",
+    author: "F.S. Lakhani",
+    readTime: 5,
+    excerpt: "In 2026, the primary reason your resume may not be resulting in interviews is the rise of AI-powered Applicant Tracking Systems (ATS) that serve as 'digital gatekeepers'.",
+    keywords: [
+      "AI gatekeeper",
+      "ATS optimization",
+      "resume tips 2026",
+      "LeadWise",
+      "career advice",
+      "job search",
+      "algorithmic rejection"
+    ],
+    ogTitle: "Get Past the AI Gatekeeper: Why Your Resume Isn’t Getting Interviews in 2026",
+    ogDescription: "Discover why AI-powered ATS systems might be rejecting your resume and how LeadWise tools can help you bypass these digital gatekeepers.",
+    content: `<p>You have the skills. You have the experience.</p><p>So why does AI keep saying “no”?</p><p>If you’ve been applying for jobs nonstop and hearing nothing back, this is the part no one tells you:</p><p>In 2026, the primary reason your resume may not be resulting in interviews is the rise of AI-powered Applicant Tracking Systems (ATS) that serve as "digital gatekeepers". These systems evaluate candidates based on rigid technical criteria—structure, keywords, formatting, and alignment—long before a human recruiter ever sees the document.</p><p>According to the sources, this creates an access problem rather than a talent problem. Highly skilled individuals, particularly those from underrepresented backgrounds, are often excluded simply because they have not been taught how to "design for the system".</p><h3>Why Resumes Fail the AI Screen</h3><ul><li><strong>Algorithmic Rejection:</strong> Up to 75% of resumes are rejected by an ATS before a human reads them.</li><li><strong>Poor Formatting:</strong> Systems often fail to parse complex layouts, leading to silent filtering.</li><li><strong>Keyword Misalignment:</strong> If a resume does not use the specific terminology the AI is programmed to find, the candidate is dismissed regardless of their actual potential.</li></ul><h3>The LeadWise Solution: Bypassing the Gatekeeper</h3><p>LeadWise Foundation provides a suite of free tools specifically engineered to help you "beat the bots" and secure interviews. Their platform includes:</p><ul><li><strong>ATS-Optimized Resume Builder:</strong> Features built-in formatting logic to ensure your resume parses correctly by recruitment software.</li><li><strong>Keyword Optimization:</strong> Six professional templates (such as Modern Blue for tech or Minimal Clean for engineers) designed to balance aesthetic appeal with the specific keywords AI looks for.</li><li><strong>Live Personalization:</strong> Real-time previews that allow you to customize every section to highlight your unique certifications and project experience.</li><li><strong>Instant Cover Letters:</strong> The ability to generate tailored, persuasive cover letters that match your resume and grab recruiter attention.</li><li><strong>Industry-Verified Credentials:</strong> To further strengthen your resume, LeadWise offers free Google certification courses (Cloud and Workspace) that act as verifiable signals of competence to hiring managers.</li></ul><h3>Strategic Access</h3><p>LeadWise treats these tools not as charity, but as a "smart, high-return social investment". By providing these resources at no cost, they aim to bridge the "leaky pipeline" in STEM and corporate leadership by ensuring that talent—regardless of background—has the technical infrastructure to be seen and hired.</p><h3>Analogy for the AI Gatekeeper</h3><p>Imagine you are a brilliant musician trying to get into a prestigious concert hall, but the front door is a high-tech scanner that only opens if you are wearing a specific, perfectly folded tuxedo. You might have the best music in the world, but if your tie is slightly crooked or your jacket isn't the "keyword" color the scanner recognizes, the door never even unlocks. LeadWise provides you with the "perfectly folded tuxedo" so you can finally get inside and play your music for the audience.</p><p>At LeadWise, we believe this is an access problem, not a talent problem.</p><p>Education gives you a voice.<br/>Skills give you power.<br/>That’s why we offer:</p><ul><li>Free ATS-optimized resumes</li><li>Live personalization with real-time preview</li><li>Matching, role-specific cover letters</li><li>Google certification courses that align with real hiring needs</li></ul><p>If AI is deciding your future, you deserve to understand how it works. Start with a free ATS-optimized resume, personalized to you, with optional matching cover letters and Google certification pathways.</p><p><a href="https://services.letsleadwise.org">https://services.letsleadwise.org</a></p><p><strong>No gatekeeping. No cost. Just access.</strong></p>`,
+    image: "/images/ATS.jpg",
   },
 ];
 
